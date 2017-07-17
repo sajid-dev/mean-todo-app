@@ -1,0 +1,11 @@
+{
+  "name": "mean-todo-app",
+  "version": "1.0.0",
+  "description": "Mean todo app",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SAJID",
+  "license": "ISC"
+}
