@@ -14,7 +14,7 @@ var todos = require("./routes/todos");
 var app = express();
 
 /* View Engine */
-app.set('views', path.join(__direname, 'views'));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.json());
@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 ));
 
 app.use('/', index);
-app.use('/api/v1', todos);
+app.use('/api/v1/', todos);
 
 app.listen(3000, function () {
     console.log("App is running on port 3000")
