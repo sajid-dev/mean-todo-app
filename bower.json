@@ -1,0 +1,20 @@
+{
+  "name": "mean-todo-app",
+  "description": "Mean todo app",
+  "main": "server",
+  "authors": [
+    "SAJID"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sajid-dev/mean-todo-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
